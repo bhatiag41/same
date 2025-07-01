@@ -1,15 +1,16 @@
-@import url('https://ext.same-assets.com/3467442324/560757291.false');
-@import url('https://ext.same-assets.com/3467442324/3297355025.false');
-@import url('https://ext.same-assets.com/3467442324/101077205.false');
-@import url('https://ext.same-assets.com/3467442324/3647068278.false');
-@import url('https://ext.same-assets.com/3467442324/3717853250.false');
-@import url('https://ext.same-assets.com/3467442324/4187064857.false');
-@import url('https://ext.same-assets.com/3467442324/4070766319.false');
-@import url('https://ext.same-assets.com/3467442324/2211502736.false');
-@import url('https://ext.same-assets.com/3467442324/624812064.false');
-@import url('https://ext.same-assets.com/3467442324/1203052370.false');
-@import url('https://ext.same-assets.com/3467442324/701879096.false');
-@import url('https://ext.same-assets.com/3467442324/2544703611.false');
+@import url("https://ext.same-assets.com/3467442324/560757291.false");
+@import url("https://ext.same-assets.com/3467442324/3297355025.false");
+@import url("https://ext.same-assets.com/3467442324/101077205.false");
+@import url("https://ext.same-assets.com/3467442324/3647068278.false");
+@import url("https://ext.same-assets.com/3467442324/3717853250.false");
+@import url("https://ext.same-assets.com/3467442324/4187064857.false");
+@import url("https://ext.same-assets.com/3467442324/4070766319.false");
+@import url("https://ext.same-assets.com/3467442324/2211502736.false");
+@import url("https://ext.same-assets.com/3467442324/624812064.false");
+@import url("https://ext.same-assets.com/3467442324/1203052370.false");
+@import url("https://ext.same-assets.com/3467442324/701879096.false");
+@import url("https://ext.same-assets.com/3467442324/2544703611.false");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Inter:wght@400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -81,6 +82,50 @@
   }
 }
 
-html, body {
-  font-family: "proxima-nova", "ff-tisa-web-pro", "ff-tisa-web-pro-caption", "adobe-garamond-pro", "source-sans-pro", "myriad-pro", "open-sans", "arial", sans-serif;
+html,
+body {
+  background: #f3f1e7;
+  color: #374d51;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "EB Garamond", serif;
+  color: #374d51;
+  margin-top: 0;
+}
+
+a {
+  color: #374d51;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #71acaf;
+}
+
+button,
+.button,
+.btn {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
 }
