@@ -5,7 +5,7 @@ const AboutSection = () => (
     {/* Text */}
     <div className="flex-1 md:pr-8 pt-0 md:pt-4">
       <h2 className="text-4xl md:text-4xl font-serif font-bold mb-8 text-[#7c7a6e]">
-        About Dr. Jennifer Hahm
+        About Dr. Serena Blake
       </h2>
       <p className="mb-7 text-[#7c7a6e] text-l leading-relaxed tracking-wide font-light">
         Finding time and opportunities to care for ourselves can be incredibly

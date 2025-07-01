@@ -181,7 +181,7 @@ const RatesAndInsuranceSection = () => {
               {errors.agree}
             </span>
           )}
-         
+
           <button
             type="submit"
             className="mt-2 bg-[#3a5a40] text-white font-serif text-lg rounded-md py-3 hover:bg-[#234] transition"
